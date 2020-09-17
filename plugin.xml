@@ -4,10 +4,10 @@
     <description>A label translate example</description>
     <!-- ios -->
     <platform name="ios">
-  <edit-config target="CFBundleLocalizations" file="*-Info.plist" mode="overwrite">
+  <custom-config-file parent="CFBundleLocalizations" target="*-Info.plist" mode="replace">
     <array>
-      <string>ja</string>
+        <string>ja</string>
     </array>
-  </edit-config>
+</custom-config-file>
 </platform>
 </plugin>
