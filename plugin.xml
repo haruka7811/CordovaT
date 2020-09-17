@@ -30,13 +30,12 @@
     <!-- ios -->
     <platform name="ios">
         
-        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <key>CFBundleLocalizations</key>
+        <!-- add -->
+        <edit-config target="CFBundleLocalizations" file="*-Info.plist" mode="overwrite">
             <array>
-            <string>jp</string>
+                <string>jp</string>
             </array>
-        </config-file>
+        </edit-config>
         
         
         
