@@ -33,7 +33,7 @@
         <!-- add -->
         <edit-config target="CFBundleLocalizations" file="*-Info.plist" mode="overwrite">
             <array>
-                <string>jp</string>
+                <string>ja</string>
             </array>
         </edit-config>
         
